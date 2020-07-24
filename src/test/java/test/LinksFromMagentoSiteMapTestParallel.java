@@ -69,6 +69,7 @@ public class LinksFromMagentoSiteMapTestParallel {
 				String newUrl = url.replaceAll("www","devaws2");
 				url = new String();
 				url = newUrl;
+				System.out.println(url);
 				driver.navigate().to(url);
 				wait.until(webDriver -> ((JavascriptExecutor) webDriver).executeScript("return document.readyState")
 						.equals("complete"));
@@ -77,6 +78,7 @@ public class LinksFromMagentoSiteMapTestParallel {
 				if(i>15) break;
 			
 			}
+				System.out.println("Zavrsio je krug...");
 	}
 	
 
