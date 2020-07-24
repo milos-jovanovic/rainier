@@ -62,7 +62,7 @@ public class LinksFromMagentoSiteMapTestParallel {
 				
 				wait = new WebDriverWait(driver,30);
 				JavascriptExecutor js = (JavascriptExecutor) driver;
-		
+				int i =0;
 		
 				while(true) {
 				String url=Urls.get(random.nextInt(Urls.size()));
@@ -73,6 +73,8 @@ public class LinksFromMagentoSiteMapTestParallel {
 				wait.until(webDriver -> ((JavascriptExecutor) webDriver).executeScript("return document.readyState")
 						.equals("complete"));
 				System.out.println(driver.getCurrentUrl());
+				i++;
+				if(i>15) break;
 			
 			}
 	}
