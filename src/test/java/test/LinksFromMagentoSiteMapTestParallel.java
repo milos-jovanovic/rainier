@@ -66,7 +66,7 @@ public class LinksFromMagentoSiteMapTestParallel {
 		
 				while(true) {
 				String url=Urls.get(random.nextInt(Urls.size()));
-				String newUrl = url.replaceAll("www","devaws");
+				String newUrl = url.replaceAll("www","devaws2");
 				url = new String();
 				url = newUrl;
 				driver.navigate().to(url);
