@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="110.815" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="surefire.suiteXmlFiles" value="testng.xml"/>
+    <property name="java.specification.version" value="13"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\miloshhh\.m2\repository\webdriver\chromedriver\win32\84.0.4147.30\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\storage\Rainier\target\test-classes;C:\storage\Rainier\target\classes;C:\Users\miloshhh\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\miloshhh\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\miloshhh\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\miloshhh\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\miloshhh\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\miloshhh\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\miloshhh\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\miloshhh\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\miloshhh\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\miloshhh\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\miloshhh\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\miloshhh\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\miloshhh\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\miloshhh\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\miloshhh\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\miloshhh\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\miloshhh\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\miloshhh\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\miloshhh\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\miloshhh\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\miloshhh\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\miloshhh\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\miloshhh\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\miloshhh\.m2\repository\io\github\bonigarcia\webdrivermanager\3.7.1\webdrivermanager-3.7.1.jar;C:\Users\miloshhh\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\miloshhh\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\miloshhh\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\miloshhh\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\miloshhh\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\miloshhh\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\miloshhh\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\miloshhh\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\miloshhh\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\miloshhh\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\miloshhh\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\miloshhh\.m2\repository\com\aventstack\extentreports\4.0.9\extentreports-4.0.9.jar;C:\Users\miloshhh\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\miloshhh\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\miloshhh\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\miloshhh\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\miloshhh\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Belgrade"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\miloshhh\AppData\Local\Temp\surefire16554979709460522637\surefirebooter2641726958159619858.jar C:\Users\miloshhh\AppData\Local\Temp\surefire16554979709460522637 2020-07-25T17-33-34_004-jvmRun1 surefire17999486630345599575tmp surefire_012868178814640647181tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\storage\Rainier\target\test-classes;C:\storage\Rainier\target\classes;C:\Users\miloshhh\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\miloshhh\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\miloshhh\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\miloshhh\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\miloshhh\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\miloshhh\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\miloshhh\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\miloshhh\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\miloshhh\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\miloshhh\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\miloshhh\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\miloshhh\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\miloshhh\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\miloshhh\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\miloshhh\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\miloshhh\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\miloshhh\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\miloshhh\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\miloshhh\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\miloshhh\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\miloshhh\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\miloshhh\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\miloshhh\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\miloshhh\.m2\repository\io\github\bonigarcia\webdrivermanager\3.7.1\webdrivermanager-3.7.1.jar;C:\Users\miloshhh\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\miloshhh\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\miloshhh\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\miloshhh\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\miloshhh\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\miloshhh\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\miloshhh\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\miloshhh\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\miloshhh\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\miloshhh\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\miloshhh\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\miloshhh\.m2\repository\com\aventstack\extentreports\4.0.9\extentreports-4.0.9.jar;C:\Users\miloshhh\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\miloshhh\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\miloshhh\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\miloshhh\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\miloshhh\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\miloshhh"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-10-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-13.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\storage\Rainier"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\miloshhh\AppData\Local\Temp\surefire16554979709460522637\surefirebooter2641726958159619858.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="13.0.1+9"/>
+    <property name="user.name" value="miloshhh"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\miloshhh\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\miloshhh\AppData\Local\Temp\"/>
+    <property name="java.version" value="13.0.1"/>
+    <property name="user.dir" value="C:\storage\Rainier"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-13.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\miloshhh\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\miloshhh\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk-13.0.1\bin;C:\magento\xampp2\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Git\cmd;C:\opt\apache-maven-3.6.3\bin;%ngrok%;C:\Users\miloshhh\AppData\Local\Microsoft\WindowsApps;C:\Users\miloshhh\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="13.0.1+9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="57.0"/>
+  </properties>
+  <testcase name="test" classname="test.LinksFromMagentoSiteMapTestParallel" time="75.498">
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+urlset
+Before suite...
+https://devaws2.rainierarms.com/geissele-super-gas-block/
+https://devaws2.rainierarms.com/danger-close-armament-sig-sauer-p365-signature-pistol-fde-rainier-arms-exclusive/
+https://devaws2.rainierarms.com/adams-arms-piston-kit-p-series-adj-micro-block-low-mass/
+https://devaws2.rainierarms.com/danger-close-armament-sig-sauer-p365-signature-pistol-fde-rainier-arms-exclusive/
+https://devaws2.rainierarms.com/agency-arms-glock-19-syndicate-barrel/
+https://devaws2.rainierarms.com/geissele-super-gas-block/
+https://devaws2.rainierarms.com/adams-arms-p2-556-nato-complete-upper/
+https://devaws2.rainierarms.com/adams-arms-piston-kit-p-series-adj-micro-block-low-mass/
+https://devaws2.rainierarms.com/fightlite-ar-15-belt-and-mag-feed-upper-receiver-assembly-mlok/
+https://devaws2.rainierarms.com/agency-arms-glock-19-syndicate-barrel/
+https://devaws2.rainierarms.com/glock-17-gen-5-9mm-17-rd-w-night-sights/
+https://www.rainierarms.com/upper/complete-uppers/ar-15/
+https://devaws2.rainierarms.com/tyrant-designs-glock-43-slide-cover-plate/
+https://devaws2.rainierarms.com/tyrant-designs-glock-43-slide-cover-plate/
+https://devaws2.rainierarms.com/rainier-arms-ultramatch-mod2-224-valkyrie-800-gas-block-1-gas-barrel-18-polish-fluted-12680/
+https://devaws2.rainierarms.com/rainier-arms-ultramatch-mod2-224-valkyrie-800-gas-block-1-gas-barrel-18-polish-fluted-12680/
+https://devaws2.rainierarms.com/geissele-ar-15-super-modular-rail-mk14-m-lok-15-black/
+https://devaws2.rainierarms.com/glock-17-gen-5-9mm-17-rd-w-night-sights/
+https://devaws2.rainierarms.com/upper-noveske-5-56mm-g3-light-shorty-10-5-sb/
+https://devaws2.rainierarms.com/fightlite-ar-15-belt-and-mag-feed-upper-receiver-assembly-mlok/
+https://devaws2.rainierarms.com/grey-ghost-precision-glock-43-slide-v1-13132/
+https://devaws2.rainierarms.com/geissele-ar-15-super-modular-rail-mk14-m-lok-15-black/
+https://devaws2.rainierarms.com/brace-built-modern-carbine-mc6-556-nato-rifle-16-main/
+https://devaws2.rainierarms.com/upper-noveske-5-56mm-g3-light-shorty-10-5-sb/
+https://devaws2.rainierarms.com/manufacturers/bravo-company-mfg/
+https://www.rainierarms.com/parts/pistol-parts/pistol-slides/
+https://devaws2.rainierarms.com/billet-rifle-systems-brs-muzzle-brake-2-chamber/
+https://devaws2.rainierarms.com/brace-built-modern-carbine-mc6-556-nato-rifle-16-main/
+https://devaws2.rainierarms.com/sig-sauer-9mm-147gr-elite-ball-fmj-ammunition-50-rd-box/
+https://devaws2.rainierarms.com/sig-sauer-9mm-147gr-elite-ball-fmj-ammunition-50-rd-box/
+https://devaws2.rainierarms.com/fn-509-tactical-9mm-blk-24rd-ns-tb/
+https://devaws2.rainierarms.com/billet-rifle-systems-brs-muzzle-brake-2-chamber/
+https://devaws2.rainierarms.com/breakthrough-military-grade-solvent-16-fl-oz-spray-bottle/
+https://devaws2.rainierarms.com/manufacturers/bravo-company-mfg/
+https://devaws2.rainierarms.com/holosun-he503r-gd-elite-circle-gold-dot-sight/
+https://devaws2.rainierarms.com/breakthrough-military-grade-solvent-16-fl-oz-spray-bottle/
+https://devaws2.rainierarms.com/axts-raptor-ambidextrous-charging-handle-5-56mm/
+https://devaws2.rainierarms.com/fn-509-tactical-9mm-blk-24rd-ns-tb/
+https://devaws2.rainierarms.com/griffin-armament-mk1-psd-223-wylde-w-sbpdw-brace-pistol-9-5/
+https://devaws2.rainierarms.com/holosun-he503r-gd-elite-circle-gold-dot-sight/
+https://devaws2.rainierarms.com/lioe-design-phantom-s420-scissors/
+https://devaws2.rainierarms.com/griffin-armament-mk1-psd-223-wylde-w-sbpdw-brace-pistol-9-5/
+https://devaws2.rainierarms.com/daniel-defense-slim-keymod-handguard-15-0/
+https://devaws2.rainierarms.com/lioe-design-phantom-s420-scissors/
+https://devaws2.rainierarms.com/faxon-firearms-glock-19-flamed-barrel-threaded-nitride/
+https://devaws2.rainierarms.com/axts-raptor-ambidextrous-charging-handle-5-56mm/
+https://devaws2.rainierarms.com/slr-rifleworks-ion-lite-handguard-10-5-mlok/
+https://devaws2.rainierarms.com/daniel-defense-slim-keymod-handguard-15-0/
+https://devaws2.rainierarms.com/h-k-p30-vp9-9mm-magazine-15rd/
+https://www.rainierarms.com/upper/handguard-systems/ar-15-handguards/
+https://devaws2.rainierarms.com/breakthrough-battle-born-hp-pro-lubricant-and-protectant-2-fl-oz-bottle/
+https://devaws2.rainierarms.com/h-k-p30-vp9-9mm-magazine-15rd/
+https://devaws2.rainierarms.com/caa-micro-conversion-kit-mck-stabilizer-sig-sauer-p320-tungsten-gray/
+https://devaws2.rainierarms.com/faxon-firearms-glock-19-flamed-barrel-threaded-nitride/
+https://devaws2.rainierarms.com/mid-evil-industries-360-rfg-rotating-fore-grip-stubby-keymod-black/
+https://devaws2.rainierarms.com/caa-micro-conversion-kit-mck-stabilizer-sig-sauer-p320-tungsten-gray/
+https://devaws2.rainierarms.com/lower/stripped-lower-receivers/ar-15-stripped-lower-receivers/noveske/
+https://devaws2.rainierarms.com/breakthrough-battle-born-hp-pro-lubricant-and-protectant-2-fl-oz-bottle/
+https://devaws2.rainierarms.com/barrett-rec7-5-56-nato-flyweight-rifle-black-cerakote-16/
+https://devaws2.rainierarms.com/lower/stripped-lower-receivers/ar-15-stripped-lower-receivers/noveske/
+https://devaws2.rainierarms.com/manufacturers/inforce/
+https://devaws2.rainierarms.com/mid-evil-industries-360-rfg-rotating-fore-grip-stubby-keymod-black/
+https://devaws2.rainierarms.com/rainier-arms-s2a-22lr-ar-15-complete-upper-16/
+https://devaws2.rainierarms.com/barrett-rec7-5-56-nato-flyweight-rifle-black-cerakote-16/
+https://devaws2.rainierarms.com/strike-industries-r-ex-riser-black/
+https://devaws2.rainierarms.com/manufacturers/inforce/
+https://devaws2.rainierarms.com/bsf-barrels-300blk-pistol-gas-1-8-twist-8-5/
+https://www.rainierarms.com/upper/complete-uppers/other-caliber/
+https://devaws2.rainierarms.com/springfield-armory-hellcat-osp-9mm-micro-compact-optics-ready-pistol/
+https://devaws2.rainierarms.com/strike-industries-r-ex-riser-black/
+https://devaws2.rainierarms.com/primary-weapons-systems-ar-15-mk1-mod-2-upper-14-5-barrel-12-mlok-rail-223-wylde-pinned-fsc-556/
+https://devaws2.rainierarms.com/springfield-armory-hellcat-osp-9mm-micro-compact-optics-ready-pistol/
+https://devaws2.rainierarms.com/kriss-low-profile-rail-sling-mount-reversible/
+https://devaws2.rainierarms.com/bsf-barrels-300blk-pistol-gas-1-8-twist-8-5/
+https://devaws2.rainierarms.com/danger-close-armament-glock-17-dca17-select-match-barrel/
+https://devaws2.rainierarms.com/kriss-low-profile-rail-sling-mount-reversible/
+https://devaws2.rainierarms.com/praetor-defense-combo-mag-pouch-sig-9-40-surefire-defender/
+https://devaws2.rainierarms.com/danger-close-armament-glock-17-dca17-select-match-barrel/
+Zavrsio je krug...
+https://devaws2.rainierarms.com/primary-weapons-systems-ar-15-mk1-mod-2-upper-14-5-barrel-12-mlok-rail-223-wylde-pinned-fsc-556/
+https://devaws2.rainierarms.com/zero-tolerance-knife-0562cf-hinderer-carbon-fiber/
+https://www.rainierarms.com/accessories/holsters/
+https://devaws2.rainierarms.com/nemo-arms-reaper-qd-338-lapua-suppressor/
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 12066
+OnlSyt laorctailn gc oCnhnercotmieoDnsr iavreer  a84.0l.l4o1w4e7d..30
+ P(l4e8abs3ee 8s6e8eb 4hctct0pasa:7/e/8c1h4r9519690b6of6m94e9ed1r1i0vae8r-.rcehfrso/mbiruamn.cohr-gh/esaedcsu/r4i1t4y7-@c{o#n3s1i0d}e)r aotni opnosr tf or2 8s1u1g2ge
+sOtniloyn locsal  oconn nkeecetpiionngs  Cahrreo maelDlowedr.
+Pilevaeser  sseaef eh.tt
+ps://chromedriver.chromium.org/security-considerations for suggestions on keeSpitnag rCthirong CmhreoDmerDirvievrer  s8a4f.e0..4
+147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 35033
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+ChromeDriver was started successfully.
+ChromeDriver was started successfully.
+Jul 25, 2020 5:33:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jul 25, 2020 5:33:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jul 25, 2020 5:33:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="test" classname="test.LinksFromMagentoSiteMapTestParallel" time="91.206">
+    <system-out><![CDATA[https://devaws2.rainierarms.com/zero-tolerance-knife-0562cf-hinderer-carbon-fiber/
+https://devaws2.rainierarms.com/manufacturers/cat-outdoors/
+https://devaws2.rainierarms.com/nemo-arms-reaper-qd-338-lapua-suppressor/
+https://devaws2.rainierarms.com/bcm-gunfighter-vertical-grip-short-mod-3-picatinny-flat-dark-earth/
+https://devaws2.rainierarms.com/manufacturers/cat-outdoors/
+https://devaws2.rainierarms.com/rise-armament-ra-303h-s-series-223-wylde-rifle-20-2/
+https://devaws2.rainierarms.com/bcm-gunfighter-vertical-grip-short-mod-3-picatinny-flat-dark-earth/
+https://devaws2.rainierarms.com/angstadt-arms-udp-9i-integrally-suppressed-9mm-complete-upper-11-9/
+https://www.rainierarms.com/complete-firearms-class-iii/rifles/ar-15-rifles/
+https://devaws2.rainierarms.com/statement-defense-glock-34-gen-3-sw-lightweight-stripped-slide-black-tungsten-trijicon-rmr-cut-rainier-arms-exclusive/
+https://www.rainierarms.com/parts/pistol-parts/pistol-slides/
+https://devaws2.rainierarms.com/jmt-black-ops-straight-single-stage-drop-in-trigger-w-anti-rotation-pins/
+https://www.rainierarms.com/upper/complete-uppers/
+Zavrsio je krug...
+]]></system-out>
+  </testcase>
+  <testcase name="test" classname="test.LinksFromMagentoSiteMapTestParallel" time="97.956">
+    <system-out><![CDATA[https://devaws2.rainierarms.com/jmt-black-ops-straight-single-stage-drop-in-trigger-w-anti-rotation-pins/
+Zavrsio je krug...
+]]></system-out>
+  </testcase>
+</testsuite>

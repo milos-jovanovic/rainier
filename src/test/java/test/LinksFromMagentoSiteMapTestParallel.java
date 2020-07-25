@@ -43,7 +43,7 @@ public class LinksFromMagentoSiteMapTestParallel {
 
 		//XmlReader.setupLinksFromMagentoParallel("https://devaws2.rainierarms.com/pub/sitemap.xml");
 		Urls=XmlReader.getUrlListFromSitemap("https://devaws2.rainierarms.com/pub/sitemap.xml");
-		
+		System.out.println("Before suite...");
 
 		
 	}
@@ -79,6 +79,7 @@ public class LinksFromMagentoSiteMapTestParallel {
 			
 			}
 				System.out.println("Zavrsio je krug...");
+				driver.close();
 	}
 	
 
