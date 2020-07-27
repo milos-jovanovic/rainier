@@ -14,6 +14,8 @@
          <suiteXmlFiles>
          <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
          </suiteXmlFiles>
+         <shutdown>kill</shutdown>
+         <forkCount>0</forkCount>
         </configuration>
       </plugin>
  </plugins>
