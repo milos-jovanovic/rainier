@@ -49,7 +49,7 @@ public class LinksFromMagentoSiteMapTestParallel {
 	}
 	
 	
-	@Test(invocationCount=10,threadPoolSize = 10)
+	@Test(invocationCount=100,threadPoolSize = 100)
 	public void test() {
 		WebDriver driver;
 		WebDriverWait wait;
@@ -75,7 +75,7 @@ public class LinksFromMagentoSiteMapTestParallel {
 						.equals("complete"));
 				System.out.println(driver.getCurrentUrl());
 				i++;
-				if(i>2) break;
+				if(i>2000) break;
 			
 			}
 				//System.out.println("Zavrsio je krug...");
