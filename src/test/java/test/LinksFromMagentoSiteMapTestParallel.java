@@ -49,7 +49,7 @@ public class LinksFromMagentoSiteMapTestParallel {
 	}
 	
 	
-	@Test(invocationCount=80,threadPoolSize = 80)
+	@Test(invocationCount=60,threadPoolSize = 60)
 	public void test() {
 		WebDriver driver;
 		WebDriverWait wait;
