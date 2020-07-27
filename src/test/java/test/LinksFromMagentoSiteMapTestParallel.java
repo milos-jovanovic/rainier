@@ -49,7 +49,7 @@ public class LinksFromMagentoSiteMapTestParallel {
 	}
 	
 	
-	@Test(invocationCount=50,threadPoolSize = 50)
+	@Test(invocationCount=5,threadPoolSize = 5)
 	public void test() {
 		WebDriver driver;
 		WebDriverWait wait;
@@ -69,13 +69,13 @@ public class LinksFromMagentoSiteMapTestParallel {
 				String newUrl = url.replaceAll("www","devaws2");
 				url = new String();
 				url = newUrl;
-				//System.out.println(url);
+				System.out.println(url);
 				driver.navigate().to(url);
 				wait.until(webDriver -> ((JavascriptExecutor) webDriver).executeScript("return document.readyState")
 						.equals("complete"));
 				System.out.println(driver.getCurrentUrl());
 				i++;
-				if(i>2000) break;
+				if(i>20) break;
 			
 			}
 				//System.out.println("Zavrsio je krug...");
