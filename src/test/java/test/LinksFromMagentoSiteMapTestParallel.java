@@ -57,7 +57,7 @@ public class LinksFromMagentoSiteMapTestParallel {
 				ChromeOptions options = new ChromeOptions();  
 				options.addArguments("--headless", "--disable-gpu", "--window-size=1920,1200","--ignore-certificate-errors");
 				driver = new ChromeDriver(options);
-				
+				System.out.println("L. Size -> "+Urls.size());
 				//ubacio do ove tacke
 				
 				wait = new WebDriverWait(driver,30);
@@ -69,7 +69,7 @@ public class LinksFromMagentoSiteMapTestParallel {
 				String newUrl = url.replaceAll("www","devaws2");
 				url = new String();
 				url = newUrl;
-				System.out.println(url);
+				//System.out.println(url);
 				driver.navigate().to(url);
 				wait.until(webDriver -> ((JavascriptExecutor) webDriver).executeScript("return document.readyState")
 						.equals("complete"));
