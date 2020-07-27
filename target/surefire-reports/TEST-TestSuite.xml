@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="110.815" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="184.307" tests="10" errors="0" skipped="0" failures="10">
   <properties>
     <property name="surefire.suiteXmlFiles" value="testng.xml"/>
     <property name="java.specification.version" value="13"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\miloshhh\AppData\Local\Temp\surefire16554979709460522637\surefirebooter2641726958159619858.jar C:\Users\miloshhh\AppData\Local\Temp\surefire16554979709460522637 2020-07-25T17-33-34_004-jvmRun1 surefire17999486630345599575tmp surefire_012868178814640647181tmp"/>
+    <property name="sun.java.command" value="C:\Users\miloshhh\AppData\Local\Temp\surefire10796361274405813582\surefirebooter17868640201485365863.jar C:\Users\miloshhh\AppData\Local\Temp\surefire10796361274405813582 2020-07-27T10-04-41_982-jvmRun1 surefire4720088952815677009tmp surefire_011836543355676762933tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\storage\Rainier\target\test-classes;C:\storage\Rainier\target\classes;C:\Users\miloshhh\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\miloshhh\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\miloshhh\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\miloshhh\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\miloshhh\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\miloshhh\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\miloshhh\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\miloshhh\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\miloshhh\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\miloshhh\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\miloshhh\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\miloshhh\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\miloshhh\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\miloshhh\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\miloshhh\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\miloshhh\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\miloshhh\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\miloshhh\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\miloshhh\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\miloshhh\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\miloshhh\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\miloshhh\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\miloshhh\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\miloshhh\.m2\repository\io\github\bonigarcia\webdrivermanager\3.7.1\webdrivermanager-3.7.1.jar;C:\Users\miloshhh\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\miloshhh\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\miloshhh\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\miloshhh\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\miloshhh\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\miloshhh\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\miloshhh\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\miloshhh\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\miloshhh\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\miloshhh\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\miloshhh\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\miloshhh\.m2\repository\com\aventstack\extentreports\4.0.9\extentreports-4.0.9.jar;C:\Users\miloshhh\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\miloshhh\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\miloshhh\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\miloshhh\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\miloshhh\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\miloshhh\AppData\Local\Temp\surefire16554979709460522637\surefirebooter2641726958159619858.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\miloshhh\AppData\Local\Temp\surefire10796361274405813582\surefirebooter17868640201485365863.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="13.0.1+9"/>
@@ -57,137 +57,422 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="57.0"/>
   </properties>
-  <testcase name="test" classname="test.LinksFromMagentoSiteMapTestParallel" time="75.498">
+  <testcase name="test" classname="test.LinksFromMagentoSiteMapTestParallel" time="131.788">
+    <failure message="unknown error: cannot determine loading status&#10;from disconnected: received Inspector.detached event&#10;  (Session info: chrome=84.0.4147.89)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-BKTF0GS&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\miloshhh\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53777}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 93e86445ec44819b146618f4109e2d3c" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BKTF0GS', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\miloshhh\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53777}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 93e86445ec44819b146618f4109e2d3c
+	at test.LinksFromMagentoSiteMapTestParallel.test(LinksFromMagentoSiteMapTestParallel.java:73)
+]]></failure>
     <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
 urlset
 Before suite...
-https://devaws2.rainierarms.com/geissele-super-gas-block/
-https://devaws2.rainierarms.com/danger-close-armament-sig-sauer-p365-signature-pistol-fde-rainier-arms-exclusive/
-https://devaws2.rainierarms.com/adams-arms-piston-kit-p-series-adj-micro-block-low-mass/
-https://devaws2.rainierarms.com/danger-close-armament-sig-sauer-p365-signature-pistol-fde-rainier-arms-exclusive/
-https://devaws2.rainierarms.com/agency-arms-glock-19-syndicate-barrel/
-https://devaws2.rainierarms.com/geissele-super-gas-block/
-https://devaws2.rainierarms.com/adams-arms-p2-556-nato-complete-upper/
-https://devaws2.rainierarms.com/adams-arms-piston-kit-p-series-adj-micro-block-low-mass/
-https://devaws2.rainierarms.com/fightlite-ar-15-belt-and-mag-feed-upper-receiver-assembly-mlok/
-https://devaws2.rainierarms.com/agency-arms-glock-19-syndicate-barrel/
-https://devaws2.rainierarms.com/glock-17-gen-5-9mm-17-rd-w-night-sights/
-https://www.rainierarms.com/upper/complete-uppers/ar-15/
-https://devaws2.rainierarms.com/tyrant-designs-glock-43-slide-cover-plate/
-https://devaws2.rainierarms.com/tyrant-designs-glock-43-slide-cover-plate/
-https://devaws2.rainierarms.com/rainier-arms-ultramatch-mod2-224-valkyrie-800-gas-block-1-gas-barrel-18-polish-fluted-12680/
-https://devaws2.rainierarms.com/rainier-arms-ultramatch-mod2-224-valkyrie-800-gas-block-1-gas-barrel-18-polish-fluted-12680/
-https://devaws2.rainierarms.com/geissele-ar-15-super-modular-rail-mk14-m-lok-15-black/
-https://devaws2.rainierarms.com/glock-17-gen-5-9mm-17-rd-w-night-sights/
-https://devaws2.rainierarms.com/upper-noveske-5-56mm-g3-light-shorty-10-5-sb/
-https://devaws2.rainierarms.com/fightlite-ar-15-belt-and-mag-feed-upper-receiver-assembly-mlok/
-https://devaws2.rainierarms.com/grey-ghost-precision-glock-43-slide-v1-13132/
-https://devaws2.rainierarms.com/geissele-ar-15-super-modular-rail-mk14-m-lok-15-black/
-https://devaws2.rainierarms.com/brace-built-modern-carbine-mc6-556-nato-rifle-16-main/
-https://devaws2.rainierarms.com/upper-noveske-5-56mm-g3-light-shorty-10-5-sb/
-https://devaws2.rainierarms.com/manufacturers/bravo-company-mfg/
-https://www.rainierarms.com/parts/pistol-parts/pistol-slides/
-https://devaws2.rainierarms.com/billet-rifle-systems-brs-muzzle-brake-2-chamber/
-https://devaws2.rainierarms.com/brace-built-modern-carbine-mc6-556-nato-rifle-16-main/
-https://devaws2.rainierarms.com/sig-sauer-9mm-147gr-elite-ball-fmj-ammunition-50-rd-box/
-https://devaws2.rainierarms.com/sig-sauer-9mm-147gr-elite-ball-fmj-ammunition-50-rd-box/
-https://devaws2.rainierarms.com/fn-509-tactical-9mm-blk-24rd-ns-tb/
-https://devaws2.rainierarms.com/billet-rifle-systems-brs-muzzle-brake-2-chamber/
-https://devaws2.rainierarms.com/breakthrough-military-grade-solvent-16-fl-oz-spray-bottle/
-https://devaws2.rainierarms.com/manufacturers/bravo-company-mfg/
-https://devaws2.rainierarms.com/holosun-he503r-gd-elite-circle-gold-dot-sight/
-https://devaws2.rainierarms.com/breakthrough-military-grade-solvent-16-fl-oz-spray-bottle/
-https://devaws2.rainierarms.com/axts-raptor-ambidextrous-charging-handle-5-56mm/
-https://devaws2.rainierarms.com/fn-509-tactical-9mm-blk-24rd-ns-tb/
-https://devaws2.rainierarms.com/griffin-armament-mk1-psd-223-wylde-w-sbpdw-brace-pistol-9-5/
-https://devaws2.rainierarms.com/holosun-he503r-gd-elite-circle-gold-dot-sight/
+https://devaws2.rainierarms.com/manufacturers/noreen-firearms/
+https://devaws2.rainierarms.com/strike-industries-fang-billet-aluminum-trigger-guard-black/
+https://devaws2.rainierarms.com/apex-tactical-competition-extended-mag-release-for-cz-p-10c-right-hand/
+https://devaws2.rainierarms.com/mft-hard-case-pepper-spray-level-3-oc-uv-stream-5-oz/
+https://devaws2.rainierarms.com/true-precision-sig-sauer-p365xl-x-fluted-match-grade-barrel-threaded-1-2x28-stealth-gray/
+https://devaws2.rainierarms.com/manufacturers/cat-outdoors/
+https://devaws2.rainierarms.com/benelli-super-nova-12ga-pump-action-tactical-shotgun-w-pistol-grip-18-5-law-enforcement-only/
+https://devaws2.rainierarms.com/caa-micro-conversion-kit-thumb-rest-black/
+https://devaws2.rainierarms.com/battle-arms-development-ar-15-monolithic-pdw-lower-receiver-stock-system-stripped/
+https://devaws2.rainierarms.com/nikon-m-tactical-scope-1-4x24-mk1-moa/
+https://devaws2.rainierarms.com/caa-micro-conversion-kit-thumb-rest-black/
+https://devaws2.rainierarms.com/manufacturers/sig-sauer/sig-mcx/
+https://devaws2.rainierarms.com/true-precision-sig-sauer-p365xl-x-fluted-match-grade-barrel-threaded-1-2x28-stealth-gray/
+https://devaws2.rainierarms.com/dpm-recoil-reduction-system-s-w-m-p-shield/
+https://devaws2.rainierarms.com/apex-tactical-competition-extended-mag-release-for-cz-p-10c-right-hand/
+https://devaws2.rainierarms.com/schmeisser-smp-scope-mount-30mm/
+https://devaws2.rainierarms.com/battle-arms-development-ar-15-monolithic-pdw-lower-receiver-stock-system-stripped/
+https://devaws2.rainierarms.com/blitzkrieg-components-kriss-defiance-front-sight-post-flat/
+https://devaws2.rainierarms.com/mft-hard-case-pepper-spray-level-3-oc-uv-stream-5-oz/
+https://devaws2.rainierarms.com/unity-tactical-atom-glock-19-slide-flat-dark-earth/
+https://devaws2.rainierarms.com/benelli-super-nova-12ga-pump-action-tactical-shotgun-w-pistol-grip-18-5-law-enforcement-only/
+https://devaws2.rainierarms.com/killer-innovations-velocity-glock-compensator-gen-4/
+https://devaws2.rainierarms.com/manufacturers/noreen-firearms/
+https://devaws2.rainierarms.com/pof-p6-5-edge-6-5-creedmoor-rifle-16-5-black/
+https://devaws2.rainierarms.com/nikon-m-tactical-scope-1-4x24-mk1-moa/
 https://devaws2.rainierarms.com/lioe-design-phantom-s420-scissors/
-https://devaws2.rainierarms.com/griffin-armament-mk1-psd-223-wylde-w-sbpdw-brace-pistol-9-5/
-https://devaws2.rainierarms.com/daniel-defense-slim-keymod-handguard-15-0/
+https://devaws2.rainierarms.com/dpm-recoil-reduction-system-s-w-m-p-shield/
+https://devaws2.rainierarms.com/manufacturers/walker-s/
+https://devaws2.rainierarms.com/manufacturers/sig-sauer/sig-mcx/
+https://devaws2.rainierarms.com/vaultek-mx-wi-fi-series-black/
+https://devaws2.rainierarms.com/schmeisser-smp-scope-mount-30mm/
+https://devaws2.rainierarms.com/rainier-arms-ultramatch-mod2-223-wylde-rifle-fluted-target-crowned-varmint-barrel-24/
+https://devaws2.rainierarms.com/strike-industries-fang-billet-aluminum-trigger-guard-black/
+https://devaws2.rainierarms.com/rainier-arms-thin-red-line-patch/
+https://devaws2.rainierarms.com/manufacturers/cat-outdoors/
+https://devaws2.rainierarms.com/primary-weapons-systems-ratchet-lock-sling-mount-plate-and-castle-nut/
+https://devaws2.rainierarms.com/pof-p6-5-edge-6-5-creedmoor-rifle-16-5-black/
+https://devaws2.rainierarms.com/f-1-firearms-223-5-56-flat-faced-compensating-muzzle-brake-black/
 https://devaws2.rainierarms.com/lioe-design-phantom-s420-scissors/
-https://devaws2.rainierarms.com/faxon-firearms-glock-19-flamed-barrel-threaded-nitride/
-https://devaws2.rainierarms.com/axts-raptor-ambidextrous-charging-handle-5-56mm/
-https://devaws2.rainierarms.com/slr-rifleworks-ion-lite-handguard-10-5-mlok/
-https://devaws2.rainierarms.com/daniel-defense-slim-keymod-handguard-15-0/
-https://devaws2.rainierarms.com/h-k-p30-vp9-9mm-magazine-15rd/
-https://www.rainierarms.com/upper/handguard-systems/ar-15-handguards/
-https://devaws2.rainierarms.com/breakthrough-battle-born-hp-pro-lubricant-and-protectant-2-fl-oz-bottle/
-https://devaws2.rainierarms.com/h-k-p30-vp9-9mm-magazine-15rd/
-https://devaws2.rainierarms.com/caa-micro-conversion-kit-mck-stabilizer-sig-sauer-p320-tungsten-gray/
-https://devaws2.rainierarms.com/faxon-firearms-glock-19-flamed-barrel-threaded-nitride/
-https://devaws2.rainierarms.com/mid-evil-industries-360-rfg-rotating-fore-grip-stubby-keymod-black/
-https://devaws2.rainierarms.com/caa-micro-conversion-kit-mck-stabilizer-sig-sauer-p320-tungsten-gray/
-https://devaws2.rainierarms.com/lower/stripped-lower-receivers/ar-15-stripped-lower-receivers/noveske/
-https://devaws2.rainierarms.com/breakthrough-battle-born-hp-pro-lubricant-and-protectant-2-fl-oz-bottle/
-https://devaws2.rainierarms.com/barrett-rec7-5-56-nato-flyweight-rifle-black-cerakote-16/
-https://devaws2.rainierarms.com/lower/stripped-lower-receivers/ar-15-stripped-lower-receivers/noveske/
-https://devaws2.rainierarms.com/manufacturers/inforce/
-https://devaws2.rainierarms.com/mid-evil-industries-360-rfg-rotating-fore-grip-stubby-keymod-black/
-https://devaws2.rainierarms.com/rainier-arms-s2a-22lr-ar-15-complete-upper-16/
-https://devaws2.rainierarms.com/barrett-rec7-5-56-nato-flyweight-rifle-black-cerakote-16/
-https://devaws2.rainierarms.com/strike-industries-r-ex-riser-black/
-https://devaws2.rainierarms.com/manufacturers/inforce/
-https://devaws2.rainierarms.com/bsf-barrels-300blk-pistol-gas-1-8-twist-8-5/
-https://www.rainierarms.com/upper/complete-uppers/other-caliber/
-https://devaws2.rainierarms.com/springfield-armory-hellcat-osp-9mm-micro-compact-optics-ready-pistol/
-https://devaws2.rainierarms.com/strike-industries-r-ex-riser-black/
-https://devaws2.rainierarms.com/primary-weapons-systems-ar-15-mk1-mod-2-upper-14-5-barrel-12-mlok-rail-223-wylde-pinned-fsc-556/
-https://devaws2.rainierarms.com/springfield-armory-hellcat-osp-9mm-micro-compact-optics-ready-pistol/
+https://devaws2.rainierarms.com/v-seven-2099-ultra-light-keymod-handguard-308dpms-sr25-15/
+https://devaws2.rainierarms.com/manufacturers/walker-s/
+https://devaws2.rainierarms.com/cloud-defensive-light-control-system-lcs-mk1-for-surefire-keymod/
+https://devaws2.rainierarms.com/blitzkrieg-components-kriss-defiance-front-sight-post-flat/
+https://devaws2.rainierarms.com/amend2-mod-2-ar15-30-round-magazine-black/
+https://devaws2.rainierarms.com/killer-innovations-velocity-glock-compensator-gen-4/
+https://devaws2.rainierarms.com/rainier-arms-ultramatch-mod2-224-valkyrie-rifle-3-gas-936-gas-block-tin-extension-fully-fluted-26/
+https://devaws2.rainierarms.com/vaultek-mx-wi-fi-series-black/
+https://devaws2.rainierarms.com/aac-blackout-5-56mm-90t-tapered-flash-hider-sr-5-fast-attach/
+https://devaws2.rainierarms.com/rainier-arms-thin-red-line-patch/
+https://devaws2.rainierarms.com/agency-arms-hybrid-special-glock-43-agency-gray/
+https://devaws2.rainierarms.com/f-1-firearms-223-5-56-flat-faced-compensating-muzzle-brake-black/
+https://devaws2.rainierarms.com/radian-raptor-ambidextrous-charging-handle-for-sig-mpx/
+https://devaws2.rainierarms.com/amend2-mod-2-ar15-30-round-magazine-black/
+https://devaws2.rainierarms.com/noveske-n4-light-5-56mm-barrel-16-fsb/
+https://devaws2.rainierarms.com/rainier-arms-ultramatch-mod2-224-valkyrie-rifle-3-gas-936-gas-block-tin-extension-fully-fluted-26/
+https://devaws2.rainierarms.com/angstadt-arms-9mm-3-lug-adapter-a1-style-flash-hider-1-2x28/
+https://devaws2.rainierarms.com/aac-blackout-5-56mm-90t-tapered-flash-hider-sr-5-fast-attach/
+https://devaws2.rainierarms.com/elite-tactical-systems-glock-9mm-27-round-mag-competition-legal-170mm/
+https://devaws2.rainierarms.com/v-seven-2099-ultra-light-keymod-handguard-308dpms-sr25-15/
+https://devaws2.rainierarms.com/yhm-phantom-5c2-comp-flash-hider-6-8mm-7-62mm-9mm/
+https://devaws2.rainierarms.com/agency-arms-hybrid-special-glock-43-agency-gray/
+https://devaws2.rainierarms.com/elite-tactical-systems-group-glock-30-45-acp-magazine-9-round/
+https://devaws2.rainierarms.com/noveske-n4-light-5-56mm-barrel-16-fsb/
+https://devaws2.rainierarms.com/venom-defense-mjolnir-grip-aluminum/
+https://www.rainierarms.com/accessories/flashlights-mounts/
+https://devaws2.rainierarms.com/rainier-arms-ultramatch-308-rifle-gas-875-gas-block-fully-fluted-tin-extension-barrel-22/
+https://devaws2.rainierarms.com/unity-tactical-atom-glock-19-slide-flat-dark-earth/
+https://devaws2.rainierarms.com/springer-precision-sig-mpx-magazine-xtensions/
+https://devaws2.rainierarms.com/rainier-arms-ultramatch-mod2-223-wylde-rifle-fluted-target-crowned-varmint-barrel-24/
+https://devaws2.rainierarms.com/manufacturers/kns-precision/
+https://www.rainierarms.com/upper/charging-handles/
+https://devaws2.rainierarms.com/seekins-precision-aimpoint-micro-t1-mount/
+https://devaws2.rainierarms.com/angstadt-arms-9mm-3-lug-adapter-a1-style-flash-hider-1-2x28/
+https://devaws2.rainierarms.com/magpul-x-22-backpacker-stock-ruger-10-22-takedown/
+https://devaws2.rainierarms.com/elite-tactical-systems-group-glock-30-45-acp-magazine-9-round/
+https://devaws2.rainierarms.com/noveske-gen-4-ar-15-pistol-10-5-shorty/
+https://devaws2.rainierarms.com/primary-weapons-systems-ratchet-lock-sling-mount-plate-and-castle-nut/
+https://devaws2.rainierarms.com/meridian-defense-corp-fh4-ak-flash-hider-14x1-lh/
+https://devaws2.rainierarms.com/rainier-arms-ultramatch-308-rifle-gas-875-gas-block-fully-fluted-tin-extension-barrel-22/
 https://devaws2.rainierarms.com/kriss-low-profile-rail-sling-mount-reversible/
-https://devaws2.rainierarms.com/bsf-barrels-300blk-pistol-gas-1-8-twist-8-5/
-https://devaws2.rainierarms.com/danger-close-armament-glock-17-dca17-select-match-barrel/
+https://devaws2.rainierarms.com/seekins-precision-aimpoint-micro-t1-mount/
+https://devaws2.rainierarms.com/faxon-firearms-45-acp-light-tapered-4150-nitride-barrel-4-5/
+https://devaws2.rainierarms.com/noveske-gen-4-ar-15-pistol-10-5-shorty/
+https://devaws2.rainierarms.com/devil-dog-concepts-ar-15-hard-charger-side-charging-handle/
+https://devaws2.rainierarms.com/meridian-defense-corp-fh4-ak-flash-hider-14x1-lh/
+https://devaws2.rainierarms.com/jl-billet-kali-key-bolt-action-charging-handle-ar-15/
+https://devaws2.rainierarms.com/manufacturers/kns-precision/
+https://devaws2.rainierarms.com/gill-arm-lock-glock-stablizing-brace/
+https://devaws2.rainierarms.com/magpul-x-22-backpacker-stock-ruger-10-22-takedown/
+https://devaws2.rainierarms.com/v7-titanium-gi-barrel-nut/
 https://devaws2.rainierarms.com/kriss-low-profile-rail-sling-mount-reversible/
-https://devaws2.rainierarms.com/praetor-defense-combo-mag-pouch-sig-9-40-surefire-defender/
-https://devaws2.rainierarms.com/danger-close-armament-glock-17-dca17-select-match-barrel/
-Zavrsio je krug...
-https://devaws2.rainierarms.com/primary-weapons-systems-ar-15-mk1-mod-2-upper-14-5-barrel-12-mlok-rail-223-wylde-pinned-fsc-556/
-https://devaws2.rainierarms.com/zero-tolerance-knife-0562cf-hinderer-carbon-fiber/
-https://www.rainierarms.com/accessories/holsters/
-https://devaws2.rainierarms.com/nemo-arms-reaper-qd-338-lapua-suppressor/
+https://devaws2.rainierarms.com/glock-g26-gen3-9mm-10rd/
+https://devaws2.rainierarms.com/gill-arm-lock-glock-stablizing-brace/
+https://devaws2.rainierarms.com/accessories/optics-sights-mounts/binoculars/
+https://devaws2.rainierarms.com/jl-billet-kali-key-bolt-action-charging-handle-ar-15/
+https://devaws2.rainierarms.com/fortis-shift-fore-end-grip/
+https://devaws2.rainierarms.com/yhm-phantom-5c2-comp-flash-hider-6-8mm-7-62mm-9mm/
+https://devaws2.rainierarms.com/weapons-armament-research-war-glock-19-afterburner-wide-body-gen-3/
+https://devaws2.rainierarms.com/v7-titanium-gi-barrel-nut/
+https://devaws2.rainierarms.com/mft-react-short-grip/
+https://devaws2.rainierarms.com/devil-dog-concepts-ar-15-hard-charger-side-charging-handle/
+https://devaws2.rainierarms.com/agency-arms-glock-19-gen-4-urban-combat-stripped-slide-dlc/
+https://devaws2.rainierarms.com/weapons-armament-research-war-glock-19-afterburner-wide-body-gen-3/
+https://devaws2.rainierarms.com/kynshot-rb5000-marksman-recoil-buffer-ar15-carbine/
+https://devaws2.rainierarms.com/venom-defense-mjolnir-grip-aluminum/
+https://devaws2.rainierarms.com/vortex-strike-eagle-4-24x50-riflescope-ebr-4-moa/
+https://devaws2.rainierarms.com/agency-arms-glock-19-gen-4-urban-combat-stripped-slide-dlc/
+https://devaws2.rainierarms.com/holosun-hs407c-2moa-red-dot/
+https://devaws2.rainierarms.com/elite-tactical-systems-glock-9mm-27-round-mag-competition-legal-170mm/
+https://devaws2.rainierarms.com/bcm-pnt-trigger-assembly-ar15/
+https://devaws2.rainierarms.com/faxon-firearms-45-acp-light-tapered-4150-nitride-barrel-4-5/
+https://devaws2.rainierarms.com/smith-wesson-m-p-performance-center-ported-shield-9mm-pistol-w-night-sights/
+https://devaws2.rainierarms.com/accessories/optics-sights-mounts/binoculars/
+https://devaws2.rainierarms.com/cmt-tact-uhpr-mod-1-handguard/
+https://devaws2.rainierarms.com/springer-precision-sig-mpx-magazine-xtensions/
+https://devaws2.rainierarms.com/manufacturers/lord-arms/
+https://devaws2.rainierarms.com/manufacturers/lord-arms/
+https://devaws2.rainierarms.com/nemo-arms-300blk-custom-carbine-buffer-spring/
+https://www.rainierarms.com/accessories/optics-sights-mounts/red-dot-sights/
+https://devaws2.rainierarms.com/sb-tactical-b-t-apc-hk-ump-sbti-side-folding-brace-black/
+https://devaws2.rainierarms.com/fortis-shift-fore-end-grip/
+https://devaws2.rainierarms.com/timney-remington-700-calvin-elite-2-stage-right-hand-black/
+https://devaws2.rainierarms.com/sb-tactical-b-t-apc-hk-ump-sbti-side-folding-brace-black/
+https://devaws2.rainierarms.com/weapon-evolution-wevo-night-vision-samurai-patch/
+https://devaws2.rainierarms.com/nemo-arms-300blk-custom-carbine-buffer-spring/
+https://devaws2.rainierarms.com/magpul-suppressor-cover-5-5/
+https://devaws2.rainierarms.com/glock-g26-gen3-9mm-10rd/
+https://devaws2.rainierarms.com/apex-tactical-action-enhancement-kit-for-cz-75-b/
+https://devaws2.rainierarms.com/apex-tactical-action-enhancement-kit-for-cz-75-b/
+https://devaws2.rainierarms.com/cmc-triggers-ar-15-ar-10-single-stage-drop-in-trigger-3-3-5-lbs/
+https://devaws2.rainierarms.com/weapon-evolution-wevo-night-vision-samurai-patch/
+https://devaws2.rainierarms.com/geissele-maritime-bolt-catch-ar15/
+https://devaws2.rainierarms.com/kynshot-rb5000-marksman-recoil-buffer-ar15-carbine/
+https://devaws2.rainierarms.com/young-mfg-national-match-bolt-carrier-group-w-side-charger/
+https://devaws2.rainierarms.com/mft-react-short-grip/
+https://devaws2.rainierarms.com/glock-43x-9mm-10rd-pistol-night-sights/
+https://devaws2.rainierarms.com/smith-wesson-m-p-performance-center-ported-shield-9mm-pistol-w-night-sights/
+https://devaws2.rainierarms.com/otis-100-all-caliber-patches/
+https://devaws2.rainierarms.com/cmc-triggers-ar-15-ar-10-single-stage-drop-in-trigger-3-3-5-lbs/
+https://devaws2.rainierarms.com/smoke-composites-lightweight-castle-nut/
+https://devaws2.rainierarms.com/vortex-strike-eagle-4-24x50-riflescope-ebr-4-moa/
+https://devaws2.rainierarms.com/matrix-arms-9mm-glock-ar-pistol-rear-charging/
+https://devaws2.rainierarms.com/young-mfg-national-match-bolt-carrier-group-w-side-charger/
+https://devaws2.rainierarms.com/fortis-la-stock-bundle-pack/
+https://devaws2.rainierarms.com/cmt-tact-uhpr-mod-1-handguard/
+https://devaws2.rainierarms.com/primary-arms-1x-compact-prism-scope-illuminated-acss-cyclops-reticle/
+https://devaws2.rainierarms.com/bcm-pnt-trigger-assembly-ar15/
+https://devaws2.rainierarms.com/bcm-gunfighter-kag-1913-picatinny-wolf-gray/
+https://devaws2.rainierarms.com/glock-43x-9mm-10rd-pistol-night-sights/
+https://devaws2.rainierarms.com/sig-sauer-romeo6t-solar-red-dot-sight-ballistic-circle-dot/
+https://devaws2.rainierarms.com/fortis-la-stock-bundle-pack/
+https://devaws2.rainierarms.com/strike-industries-strike-switch-safety-selector/
+https://devaws2.rainierarms.com/primary-arms-1x-compact-prism-scope-illuminated-acss-cyclops-reticle/
+https://devaws2.rainierarms.com/aimpoint-comp-m5-2-moa-w-o-mount/
+https://devaws2.rainierarms.com/matrix-arms-9mm-glock-ar-pistol-rear-charging/
+https://devaws2.rainierarms.com/rainier-arms-ultramatch-308-bcg-nib/
+https://devaws2.rainierarms.com/timney-remington-700-calvin-elite-2-stage-right-hand-black/
+https://devaws2.rainierarms.com/bcm-recce-14-mcmr-carbine-rifle/
+https://devaws2.rainierarms.com/geissele-maritime-bolt-catch-ar15/
+https://devaws2.rainierarms.com/krytac-trident-crb/
+https://devaws2.rainierarms.com/magpul-suppressor-cover-5-5/
+https://devaws2.rainierarms.com/aero-precision-m4e1-atlas-s-one-300blk-pistol-10-black/
+https://devaws2.rainierarms.com/sig-sauer-romeo6t-solar-red-dot-sight-ballistic-circle-dot/
+https://devaws2.rainierarms.com/dead-foot-arms-dfa-t-rex-5-position-collapsible-stock/
+https://devaws2.rainierarms.com/strike-industries-strike-switch-safety-selector/
+https://devaws2.rainierarms.com/zev-technologies-ar15-billet-5-56-nato-rifle-16/
+https://devaws2.rainierarms.com/rainier-arms-ultramatch-308-bcg-nib/
+https://devaws2.rainierarms.com/legion-precision-9mm-pistol-shorty-compensator-black-anodize/
+https://devaws2.rainierarms.com/smoke-composites-lightweight-castle-nut/
+https://devaws2.rainierarms.com/fn-scar-20s-7-62x51mm-20/
+https://devaws2.rainierarms.com/krytac-trident-crb/
+https://devaws2.rainierarms.com/zev-4th-gen-glock-guide-rod-reducing-ring-black-dlc/
+https://devaws2.rainierarms.com/aero-precision-m4e1-atlas-s-one-300blk-pistol-10-black/
+https://devaws2.rainierarms.com/caa-micro-conversion-kit-mck-stabilizer-glock-17-19-19x-22-23-31-32-g45-black/
+https://devaws2.rainierarms.com/otis-100-all-caliber-patches/
+https://devaws2.rainierarms.com/primary-weapons-systems-mk1-mod-1-pro-ar-15-complete-rifle-lower-receiver/
+https://devaws2.rainierarms.com/dead-foot-arms-dfa-t-rex-5-position-collapsible-stock/
+https://devaws2.rainierarms.com/quarter-circle-10-40-s-w-barrels-5-8-24-threaded/
+https://devaws2.rainierarms.com/primary-weapons-systems-mk1-mod-1-pro-ar-15-complete-rifle-lower-receiver/
+https://devaws2.rainierarms.com/upper-lower-combo/ar15-sets/
+https://devaws2.rainierarms.com/caa-micro-conversion-kit-mck-stabilizer-glock-17-19-19x-22-23-31-32-g45-black/
+https://devaws2.rainierarms.com/nighthawk-tri-cut-carry-9mm-flat-faced-trigger-1911/
+https://devaws2.rainierarms.com/legion-precision-9mm-pistol-shorty-compensator-black-anodize/
+https://devaws2.rainierarms.com/forward-controls-design-rbf-reinforced-buffer-retainer/
+https://devaws2.rainierarms.com/fn-scar-20s-7-62x51mm-20/
+https://devaws2.rainierarms.com/f4-defense-f4-15-pdwx-lite-rifle-11-3/
+https://devaws2.rainierarms.com/zev-4th-gen-glock-guide-rod-reducing-ring-black-dlc/
+https://devaws2.rainierarms.com/benelli-super-nova-12ga-pump-action-tactical-shotgun-w-pistol-grip-18-5-law-enforcement-only/
+https://devaws2.rainierarms.com/upper-lower-combo/ar15-sets/
+https://devaws2.rainierarms.com/odin-works-zulu-2-0-adjustable-stock-kit-red/
+https://devaws2.rainierarms.com/bcm-gunfighter-kag-1913-picatinny-wolf-gray/
+https://devaws2.rainierarms.com/q-silencer-7-62-half-nelson/
+https://devaws2.rainierarms.com/benelli-super-nova-12ga-pump-action-tactical-shotgun-w-pistol-grip-18-5-law-enforcement-only/
+https://devaws2.rainierarms.com/rainier-arms-modified-trigger-guard/
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 12066
-OnlSyt laorctailn gc oCnhnercotmieoDnsr iavreer  a84.0l.l4o1w4e7d..30
- P(l4e8abs3ee 8s6e8eb 4hctct0pasa:7/e/8c1h4r9519690b6of6m94e9ed1r1i0vae8r-.rcehfrso/mbiruamn.cohr-gh/esaedcsu/r4i1t4y7-@c{o#n3s1i0d}e)r aotni opnosr tf or2 8s1u1g2ge
-sOtniloyn locsal  oconn nkeecetpiionngs  Cahrreo maelDlowedr.
-Pilevaeser  sseaef eh.tt
-ps://chromedriver.chromium.org/security-considerations for suggestions on keeSpitnag rCthirong CmhreoDmerDirvievrer  s8a4f.e0..4
-147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 35033
+Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 7199
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 18312
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+ChromeDriver was started successfully.
+StarSttaritnign gC hCrhormoemDerDirvievre r8 48.40..04.144174.370. 3(04 8(b438eb836e88b648cbc40caca07aea871e489154951199669900bb66ff66994499ee111100aa88--rreeffss//bbrraanncchh--hheeaaddss//44114477@@{{##331100}}))  oonn  ppoorrtt  2149801163
+O
+nOlnyl yl olcoacla lc ocnonnencetcitoinosn sa raer ea lallolwoewde.d.
+P
+lPelaesaes es esee eh thttptsp:s/:///cchhrroommeeddrriivveerr..cchhrroommiiuumm..oorrgg//sseeccuurriittyy--ccoonnssiiddeerraattiioonnss  ffoorr sug gseusgtgieosntsi oonns  koene pkienegp iCnhgro mCehrDormievDerri vsearf es.af
+e.
+Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 25623
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+Starting SCtharrotmieng ChrDomerDirviever 84.r0. 48144.7.30 (04.84b134e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 42812
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+7.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 42449
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
 ChromeDriver was started successfully.
 ChromeDriver was started successfully.
-Jul 25, 2020 5:33:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromCehDrroimveeDrr iwvaesr s twaas starrtteedd  ssuucccceessssffullyu.ll
+y.
+Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 11306
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 6833
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 45489
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 27, 2020 10:04:59 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Jul 25, 2020 5:33:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 27, 2020 10:04:59 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Jul 25, 2020 5:33:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 27, 2020 10:04:59 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
+Jul 27, 2020 10:04:59 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jul 27, 2020 10:05:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jul 27, 2020 10:05:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jul 27, 2020 10:05:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jul 27, 2020 10:05:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jul 27, 2020 10:05:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jul 27, 2020 10:05:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1595837224.955][SEVERE]: Unable to receive message from renderer
 ]]></system-err>
   </testcase>
-  <testcase name="test" classname="test.LinksFromMagentoSiteMapTestParallel" time="91.206">
-    <system-out><![CDATA[https://devaws2.rainierarms.com/zero-tolerance-knife-0562cf-hinderer-carbon-fiber/
-https://devaws2.rainierarms.com/manufacturers/cat-outdoors/
-https://devaws2.rainierarms.com/nemo-arms-reaper-qd-338-lapua-suppressor/
-https://devaws2.rainierarms.com/bcm-gunfighter-vertical-grip-short-mod-3-picatinny-flat-dark-earth/
-https://devaws2.rainierarms.com/manufacturers/cat-outdoors/
-https://devaws2.rainierarms.com/rise-armament-ra-303h-s-series-223-wylde-rifle-20-2/
-https://devaws2.rainierarms.com/bcm-gunfighter-vertical-grip-short-mod-3-picatinny-flat-dark-earth/
-https://devaws2.rainierarms.com/angstadt-arms-udp-9i-integrally-suppressed-9mm-complete-upper-11-9/
-https://www.rainierarms.com/complete-firearms-class-iii/rifles/ar-15-rifles/
-https://devaws2.rainierarms.com/statement-defense-glock-34-gen-3-sw-lightweight-stripped-slide-black-tungsten-trijicon-rmr-cut-rainier-arms-exclusive/
-https://www.rainierarms.com/parts/pistol-parts/pistol-slides/
-https://devaws2.rainierarms.com/jmt-black-ops-straight-single-stage-drop-in-trigger-w-anti-rotation-pins/
-https://www.rainierarms.com/upper/complete-uppers/
-Zavrsio je krug...
+  <testcase name="test" classname="test.LinksFromMagentoSiteMapTestParallel" time="135.374">
+    <failure message="unknown error: cannot determine loading status&#10;from disconnected: Unable to receive message from renderer&#10;  (Session info: chrome=84.0.4147.89)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-BKTF0GS&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\miloshhh\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53779}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: aca90a6c8c71b53e531de4786dc2b2cb" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+unknown error: cannot determine loading status
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BKTF0GS', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\miloshhh\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53779}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: aca90a6c8c71b53e531de4786dc2b2cb
+	at test.LinksFromMagentoSiteMapTestParallel.test(LinksFromMagentoSiteMapTestParallel.java:73)
+]]></failure>
+    <system-out><![CDATA[https://devaws2.rainierarms.com/forward-controls-design-rbf-reinforced-buffer-retainer/
+https://devaws2.rainierarms.com/phase-5-tactical-winter-trigger-guard-10567/
+https://devaws2.rainierarms.com/aimpoint-comp-m5-2-moa-w-o-mount/
+https://devaws2.rainierarms.com/smoke-composites-carbon-fiber-buttstocks-closed-carbine-length/
 ]]></system-out>
+    <system-err><![CDATA[[1595837230.642][SEVERE]: Unable to receive message from renderer
+]]></system-err>
   </testcase>
-  <testcase name="test" classname="test.LinksFromMagentoSiteMapTestParallel" time="97.956">
-    <system-out><![CDATA[https://devaws2.rainierarms.com/jmt-black-ops-straight-single-stage-drop-in-trigger-w-anti-rotation-pins/
-Zavrsio je krug...
-]]></system-out>
+  <testcase name="test" classname="test.LinksFromMagentoSiteMapTestParallel" time="144.47">
+    <failure message="chrome not reachable&#10;  (Session info: chrome=84.0.4147.89)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-BKTF0GS&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\miloshhh\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53780}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 9331b21e3f4783d71893c33c6fea96ea" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BKTF0GS', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\miloshhh\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53780}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9331b21e3f4783d71893c33c6fea96ea
+	at test.LinksFromMagentoSiteMapTestParallel.lambda$0(LinksFromMagentoSiteMapTestParallel.java:74)
+	at test.LinksFromMagentoSiteMapTestParallel.test(LinksFromMagentoSiteMapTestParallel.java:74)
+]]></failure>
+    <system-err><![CDATA[[1595837231.777][WARNING]: Timed out connecting to Chrome, retrying...
+[1595837233.244][WARNING]: Timed out connecting to Chrome, retrying...
+[1595837239.259][WARNING]: Timed out connecting to Chrome, retrying...
+]]></system-err>
+  </testcase>
+  <testcase name="test" classname="test.LinksFromMagentoSiteMapTestParallel" time="145.932">
+    <failure message="chrome not reachable&#10;  (Session info: chrome=84.0.4147.89)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-BKTF0GS&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\miloshhh\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53782}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 25b59ef847defef185e860eeca3f18b8" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BKTF0GS', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\miloshhh\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53782}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 25b59ef847defef185e860eeca3f18b8
+	at test.LinksFromMagentoSiteMapTestParallel.lambda$0(LinksFromMagentoSiteMapTestParallel.java:74)
+	at test.LinksFromMagentoSiteMapTestParallel.test(LinksFromMagentoSiteMapTestParallel.java:74)
+]]></failure>
+  </testcase>
+  <testcase name="test" classname="test.LinksFromMagentoSiteMapTestParallel" time="151.957">
+    <failure message="chrome not reachable&#10;  (Session info: chrome=84.0.4147.89)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-BKTF0GS&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\miloshhh\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53790}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 1d943da0a22b20dbb9664edcb2209851" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BKTF0GS', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\miloshhh\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53790}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1d943da0a22b20dbb9664edcb2209851
+	at test.LinksFromMagentoSiteMapTestParallel.lambda$0(LinksFromMagentoSiteMapTestParallel.java:74)
+	at test.LinksFromMagentoSiteMapTestParallel.test(LinksFromMagentoSiteMapTestParallel.java:74)
+]]></failure>
+    <system-err><![CDATA[[1595837242.339][WARNING]: Timed out connecting to Chrome, retrying...
+]]></system-err>
+  </testcase>
+  <testcase name="test" classname="test.LinksFromMagentoSiteMapTestParallel" time="155.026">
+    <failure message="chrome not reachable&#10;  (Session info: chrome=84.0.4147.89)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-BKTF0GS&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\miloshhh\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53793}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: a4536a280a509508e14f2afa76b5bbdd" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BKTF0GS', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\miloshhh\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53793}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a4536a280a509508e14f2afa76b5bbdd
+	at test.LinksFromMagentoSiteMapTestParallel.lambda$0(LinksFromMagentoSiteMapTestParallel.java:74)
+	at test.LinksFromMagentoSiteMapTestParallel.test(LinksFromMagentoSiteMapTestParallel.java:74)
+]]></failure>
+  </testcase>
+  <testcase name="test" classname="test.LinksFromMagentoSiteMapTestParallel" time="159.867">
+    <failure message="Expected condition failed: waiting for test.LinksFromMagentoSiteMapTestParallel$$Lambda$759/0x0000000800e3f440@290741ce (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for test.LinksFromMagentoSiteMapTestParallel$$Lambda$759/0x0000000800e3f440@290741ce (tried for 30 second(s) with 500 milliseconds interval)
+	at test.LinksFromMagentoSiteMapTestParallel.test(LinksFromMagentoSiteMapTestParallel.java:74)
+Caused by: org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BKTF0GS', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\miloshhh\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53787}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d3d16e20a247fc59e9673214e7fc2b3
+	at test.LinksFromMagentoSiteMapTestParallel.lambda$0(LinksFromMagentoSiteMapTestParallel.java:74)
+	at test.LinksFromMagentoSiteMapTestParallel.test(LinksFromMagentoSiteMapTestParallel.java:74)
+]]></failure>
+  </testcase>
+  <testcase name="test" classname="test.LinksFromMagentoSiteMapTestParallel" time="167.257">
+    <failure message="Expected condition failed: waiting for test.LinksFromMagentoSiteMapTestParallel$$Lambda$759/0x0000000800e3f440@290741ce (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for test.LinksFromMagentoSiteMapTestParallel$$Lambda$759/0x0000000800e3f440@290741ce (tried for 30 second(s) with 500 milliseconds interval)
+	at test.LinksFromMagentoSiteMapTestParallel.test(LinksFromMagentoSiteMapTestParallel.java:74)
+Caused by: org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BKTF0GS', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\miloshhh\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53797}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 41b7fcb3ea412f23712524d02d129b5c
+	at test.LinksFromMagentoSiteMapTestParallel.lambda$0(LinksFromMagentoSiteMapTestParallel.java:74)
+	at test.LinksFromMagentoSiteMapTestParallel.test(LinksFromMagentoSiteMapTestParallel.java:74)
+]]></failure>
+  </testcase>
+  <testcase name="test" classname="test.LinksFromMagentoSiteMapTestParallel" time="168.738">
+    <failure message="Expected condition failed: waiting for test.LinksFromMagentoSiteMapTestParallel$$Lambda$759/0x0000000800e3f440@290741ce (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for test.LinksFromMagentoSiteMapTestParallel$$Lambda$759/0x0000000800e3f440@290741ce (tried for 30 second(s) with 500 milliseconds interval)
+	at test.LinksFromMagentoSiteMapTestParallel.test(LinksFromMagentoSiteMapTestParallel.java:74)
+Caused by: org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BKTF0GS', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\miloshhh\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53785}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f823eb4f937e61a1170c62e758eb4d9d
+	at test.LinksFromMagentoSiteMapTestParallel.lambda$0(LinksFromMagentoSiteMapTestParallel.java:74)
+	at test.LinksFromMagentoSiteMapTestParallel.test(LinksFromMagentoSiteMapTestParallel.java:74)
+]]></failure>
+  </testcase>
+  <testcase name="test" classname="test.LinksFromMagentoSiteMapTestParallel" time="171.502">
+    <failure message="Expected condition failed: waiting for test.LinksFromMagentoSiteMapTestParallel$$Lambda$759/0x0000000800e3f440@290741ce (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for test.LinksFromMagentoSiteMapTestParallel$$Lambda$759/0x0000000800e3f440@290741ce (tried for 30 second(s) with 500 milliseconds interval)
+	at test.LinksFromMagentoSiteMapTestParallel.test(LinksFromMagentoSiteMapTestParallel.java:74)
+Caused by: org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BKTF0GS', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\miloshhh\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53781}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 8fe3720ca3d520e50ae1488fd78d55e7
+	at test.LinksFromMagentoSiteMapTestParallel.lambda$0(LinksFromMagentoSiteMapTestParallel.java:74)
+	at test.LinksFromMagentoSiteMapTestParallel.test(LinksFromMagentoSiteMapTestParallel.java:74)
+]]></failure>
   </testcase>
 </testsuite>

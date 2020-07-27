@@ -49,13 +49,13 @@ public class LinksFromMagentoSiteMapTestParallel {
 	}
 	
 	
-	@Test(invocationCount=40,threadPoolSize = 40)
+	@Test(invocationCount=50,threadPoolSize = 50)
 	public void test() {
 		WebDriver driver;
 		WebDriverWait wait;
 		//ubacio ovaj deo koda za headless
 				ChromeOptions options = new ChromeOptions();  
-				//options.addArguments("--headless", "--disable-gpu", "--window-size=1920,1200","--ignore-certificate-errors");
+				options.addArguments("--headless", "--disable-gpu", "--window-size=1920,1200","--ignore-certificate-errors");
 				driver = new ChromeDriver(options);
 				
 				//ubacio do ove tacke
