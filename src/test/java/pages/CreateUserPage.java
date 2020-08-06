@@ -48,7 +48,7 @@ public class CreateUserPage extends BasePage{
 	@FindBy(xpath = "//div[@id='accept_gdpr-error']")
 	WebElement acceptButtonError;
 
-	@FindBy(xpath = "//button[@class='action submit primary btn btn-default']")
+	@FindBy(xpath = "//button[@class='action submit primary']")
 	WebElement createUserButton;
 
 	@FindBy(xpath = "//*[@class='action back btn btn-primary']")

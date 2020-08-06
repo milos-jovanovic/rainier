@@ -1,217 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="50" passed="50" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-07-27T08:58:17Z" name="Default suite" finished-at="2020-07-27T09:24:21Z" duration-ms="1564913">
+  <suite started-at="2020-08-06T03:44:53Z" name="Default suite" finished-at="2020-08-06T04:00:42Z" duration-ms="949199">
     <groups>
     </groups>
-    <test started-at="2020-07-27T08:58:17Z" name="Default test" finished-at="2020-07-27T09:24:21Z" duration-ms="1564913">
+    <test started-at="2020-08-06T03:44:53Z" name="Default test" finished-at="2020-08-06T04:00:42Z" duration-ms="949199">
       <class name="test.LinksFromMagentoSiteMapTestParallel">
-        <test-method is-config="true" signature="prepare()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@6107227e]" started-at="2020-07-27T08:58:06Z" name="prepare" finished-at="2020-07-27T08:58:17Z" duration-ms="10746" status="PASS">
+        <test-method is-config="true" signature="prepare()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@79ca92b9]" started-at="2020-08-06T03:44:15Z" name="prepare" finished-at="2020-08-06T03:44:53Z" duration-ms="37940" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prepare -->
-        <test-method is-config="true" signature="driverSetup()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@6107227e]" started-at="2020-07-27T08:58:17Z" name="driverSetup" finished-at="2020-07-27T08:58:17Z" duration-ms="136" status="PASS">
+        <test-method is-config="true" signature="probajUsere()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@79ca92b9]" started-at="2020-08-06T03:44:53Z" name="probajUsere" finished-at="2020-08-06T03:44:53Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- probajUsere -->
+        <test-method is-config="true" signature="driverSetup()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@79ca92b9]" started-at="2020-08-06T03:44:53Z" name="driverSetup" finished-at="2020-08-06T03:44:53Z" duration-ms="121" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetup -->
-        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@6107227e]" started-at="2020-07-27T08:58:17Z" name="test" finished-at="2020-07-27T09:22:43Z" duration-ms="1466238" status="PASS">
+        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@79ca92b9]" started-at="2020-08-06T03:44:53Z" name="test" finished-at="2020-08-06T03:55:43Z" duration-ms="650395" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@6107227e]" started-at="2020-07-27T08:58:17Z" name="test" finished-at="2020-07-27T09:24:21Z" duration-ms="1564749" status="PASS">
+        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@79ca92b9]" started-at="2020-08-06T03:44:53Z" name="test" finished-at="2020-08-06T03:56:27Z" duration-ms="694749" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@6107227e]" started-at="2020-07-27T08:58:17Z" name="test" finished-at="2020-07-27T09:22:35Z" duration-ms="1458130" status="PASS">
+        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@79ca92b9]" started-at="2020-08-06T03:44:53Z" name="test" finished-at="2020-08-06T03:57:28Z" duration-ms="755425" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@6107227e]" started-at="2020-07-27T08:58:17Z" name="test" finished-at="2020-07-27T09:23:55Z" duration-ms="1538242" status="PASS">
+        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@79ca92b9]" started-at="2020-08-06T03:44:53Z" name="test" finished-at="2020-08-06T04:00:42Z" duration-ms="949063" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@6107227e]" started-at="2020-07-27T08:58:17Z" name="test" finished-at="2020-07-27T09:22:12Z" duration-ms="1435244" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@6107227e]" started-at="2020-07-27T08:58:17Z" name="test" finished-at="2020-07-27T09:22:59Z" duration-ms="1481858" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@6107227e]" started-at="2020-07-27T08:58:17Z" name="test" finished-at="2020-07-27T09:24:19Z" duration-ms="1561839" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@6107227e]" started-at="2020-07-27T08:58:17Z" name="test" finished-at="2020-07-27T09:24:13Z" duration-ms="1555907" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@6107227e]" started-at="2020-07-27T08:58:17Z" name="test" finished-at="2020-07-27T09:24:18Z" duration-ms="1561359" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@6107227e]" started-at="2020-07-27T08:58:17Z" name="test" finished-at="2020-07-27T09:24:08Z" duration-ms="1551650" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@6107227e]" started-at="2020-07-27T08:58:17Z" name="test" finished-at="2020-07-27T09:22:38Z" duration-ms="1461679" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@6107227e]" started-at="2020-07-27T08:58:17Z" name="test" finished-at="2020-07-27T09:24:03Z" duration-ms="1546575" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@6107227e]" started-at="2020-07-27T08:58:17Z" name="test" finished-at="2020-07-27T09:23:14Z" duration-ms="1497452" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@6107227e]" started-at="2020-07-27T08:58:17Z" name="test" finished-at="2020-07-27T09:24:18Z" duration-ms="1561599" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@6107227e]" started-at="2020-07-27T08:58:17Z" name="test" finished-at="2020-07-27T09:24:08Z" duration-ms="1551014" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@6107227e]" started-at="2020-07-27T08:58:17Z" name="test" finished-at="2020-07-27T09:22:41Z" duration-ms="1464657" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@6107227e]" started-at="2020-07-27T08:58:17Z" name="test" finished-at="2020-07-27T09:24:15Z" duration-ms="1558685" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@6107227e]" started-at="2020-07-27T08:58:17Z" name="test" finished-at="2020-07-27T09:24:17Z" duration-ms="1560075" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@6107227e]" started-at="2020-07-27T08:58:17Z" name="test" finished-at="2020-07-27T09:24:17Z" duration-ms="1560607" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@6107227e]" started-at="2020-07-27T08:58:17Z" name="test" finished-at="2020-07-27T09:24:03Z" duration-ms="1545881" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@6107227e]" started-at="2020-07-27T08:58:17Z" name="test" finished-at="2020-07-27T09:24:17Z" duration-ms="1560075" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@6107227e]" started-at="2020-07-27T08:58:17Z" name="test" finished-at="2020-07-27T09:22:23Z" duration-ms="1446031" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@6107227e]" started-at="2020-07-27T08:58:17Z" name="test" finished-at="2020-07-27T09:24:20Z" duration-ms="1563135" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@6107227e]" started-at="2020-07-27T08:58:17Z" name="test" finished-at="2020-07-27T09:24:03Z" duration-ms="1546245" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@6107227e]" started-at="2020-07-27T08:58:17Z" name="test" finished-at="2020-07-27T09:24:08Z" duration-ms="1551330" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@6107227e]" started-at="2020-07-27T08:58:17Z" name="test" finished-at="2020-07-27T09:24:12Z" duration-ms="1555611" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@6107227e]" started-at="2020-07-27T08:58:17Z" name="test" finished-at="2020-07-27T09:22:33Z" duration-ms="1456419" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@6107227e]" started-at="2020-07-27T08:58:17Z" name="test" finished-at="2020-07-27T09:22:27Z" duration-ms="1450828" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@6107227e]" started-at="2020-07-27T08:58:17Z" name="test" finished-at="2020-07-27T09:24:13Z" duration-ms="1555920" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@6107227e]" started-at="2020-07-27T08:58:17Z" name="test" finished-at="2020-07-27T09:24:11Z" duration-ms="1553845" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@6107227e]" started-at="2020-07-27T08:58:17Z" name="test" finished-at="2020-07-27T09:24:11Z" duration-ms="1554147" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@6107227e]" started-at="2020-07-27T08:58:17Z" name="test" finished-at="2020-07-27T09:23:00Z" duration-ms="1483427" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@6107227e]" started-at="2020-07-27T08:58:17Z" name="test" finished-at="2020-07-27T09:22:26Z" duration-ms="1448858" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@6107227e]" started-at="2020-07-27T08:58:17Z" name="test" finished-at="2020-07-27T09:23:57Z" duration-ms="1540416" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@6107227e]" started-at="2020-07-27T08:58:17Z" name="test" finished-at="2020-07-27T09:23:01Z" duration-ms="1484626" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@6107227e]" started-at="2020-07-27T08:58:17Z" name="test" finished-at="2020-07-27T09:24:15Z" duration-ms="1557851" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@6107227e]" started-at="2020-07-27T08:58:17Z" name="test" finished-at="2020-07-27T09:22:26Z" duration-ms="1449376" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@6107227e]" started-at="2020-07-27T08:58:17Z" name="test" finished-at="2020-07-27T09:22:34Z" duration-ms="1457772" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@6107227e]" started-at="2020-07-27T08:58:17Z" name="test" finished-at="2020-07-27T09:24:18Z" duration-ms="1561109" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@6107227e]" started-at="2020-07-27T08:58:17Z" name="test" finished-at="2020-07-27T09:24:10Z" duration-ms="1552927" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@6107227e]" started-at="2020-07-27T08:58:17Z" name="test" finished-at="2020-07-27T09:24:18Z" duration-ms="1561605" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@6107227e]" started-at="2020-07-27T08:58:17Z" name="test" finished-at="2020-07-27T09:24:03Z" duration-ms="1545879" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@6107227e]" started-at="2020-07-27T08:58:17Z" name="test" finished-at="2020-07-27T09:22:46Z" duration-ms="1469690" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@6107227e]" started-at="2020-07-27T08:58:17Z" name="test" finished-at="2020-07-27T09:24:18Z" duration-ms="1561122" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@6107227e]" started-at="2020-07-27T08:58:17Z" name="test" finished-at="2020-07-27T09:22:26Z" duration-ms="1448858" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@6107227e]" started-at="2020-07-27T08:58:17Z" name="test" finished-at="2020-07-27T09:24:00Z" duration-ms="1543523" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@6107227e]" started-at="2020-07-27T08:58:17Z" name="test" finished-at="2020-07-27T09:24:10Z" duration-ms="1553231" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@6107227e]" started-at="2020-07-27T08:58:17Z" name="test" finished-at="2020-07-27T09:24:19Z" duration-ms="1561838" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@6107227e]" started-at="2020-07-27T08:58:17Z" name="test" finished-at="2020-07-27T09:22:34Z" duration-ms="1457260" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@6107227e]" started-at="2020-07-27T08:58:17Z" name="test" finished-at="2020-07-27T09:21:54Z" duration-ms="1417660" status="PASS">
+        <test-method signature="test()[pri:0, instance:test.LinksFromMagentoSiteMapTestParallel@79ca92b9]" started-at="2020-08-06T03:44:53Z" name="test" finished-at="2020-08-06T03:56:49Z" duration-ms="716506" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->

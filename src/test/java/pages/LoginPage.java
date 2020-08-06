@@ -13,7 +13,7 @@ public class LoginPage extends BasePage {
 	private static By passwordInputFieldBy = By.name("login[password]");
 
 
-	private static By submitButtonBy = By.xpath("(//span[contains(.,'Prijava')])[2]");
+	private static By submitButtonBy = By.xpath("//button[@class='action login primary']");
 
 	public LoginPage(WebDriver driver) {
 		super(driver);
