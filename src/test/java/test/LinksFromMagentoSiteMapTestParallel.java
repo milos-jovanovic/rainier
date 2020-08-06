@@ -70,8 +70,8 @@ public class LinksFromMagentoSiteMapTestParallel {
 		ChromeOptions options = new ChromeOptions();
 		//radi i ovo na neucitavanje slika		
 		options.addArguments("--blink-settings=imagesEnabled=false");
-//		options.addArguments("--headless", "--disable-gpu",
-//		 "--window-size=1920,1200","--ignore-certificate-errors");
+		options.addArguments("--headless", "--disable-gpu",
+		 "--window-size=1920,1200","--ignore-certificate-errors");
 		
 		
 		//funcionise za neucitavanje slika
@@ -125,7 +125,7 @@ public class LinksFromMagentoSiteMapTestParallel {
 //						.equals("complete"));
 			waitForJSandJQueryToLoad(driver, wait);
 			
-
+			//provera da li ima proizvoda u kategoriji
 			if (!categoryPage.isNumberOfProductsGreaterThen(0)) {
 				continue;
 			} else {
@@ -135,7 +135,7 @@ public class LinksFromMagentoSiteMapTestParallel {
 				if (!productPage.isProductInStock()) {
 					continue;
 				}
-
+				//provera da li je proizvod konfigurabilan(sadrzi as low as) ili pripada i amo kategoriji
 				if (productPage.doesPriceBoxContainsAsLowAs() || productPage.isproductInAmmoCategory()) {
 					continue;
 				}
@@ -156,12 +156,12 @@ public class LinksFromMagentoSiteMapTestParallel {
 			}
 			System.out.println(driver.getCurrentUrl());
 			i++;
-			if (i > 10)
+			if (i > 5)
 				break;
 
 		}
 		// System.out.println("Zavrsio je krug...");
-		driver.close();
+		driver.quit();
 	}
 
 	public boolean waitForJSandJQueryToLoad(WebDriver webDriver, WebDriverWait webDriverWait) {
