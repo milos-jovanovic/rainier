@@ -27,6 +27,8 @@ public class CartPage extends BasePage {
 	 * */
 	private static By moveProductToWishlistBy = By.xpath("//a[contains(@class,'action-towishlist')]");
 	
+	private static By freeGiftPopupCloseButtonBy = By.xpath("//div[@data-role='ampromo-popup-hide']");
+	
 	public CartPage(WebDriver driver) {
 		super(driver);
 	}
@@ -43,6 +45,9 @@ public class CartPage extends BasePage {
 	private List<WebElement> productList() {
 		return getDriver().findElements(productListBy);
 	}
+	private WebElement freeGiftPopupCloseButton() {
+		return getDriver().findElement(freeGiftPopupCloseButtonBy);
+	}
 	//Actions
 	public void clickRemoveProductFromCartButton() {
 		removeProductFromCartButton().click();
@@ -58,5 +63,10 @@ public class CartPage extends BasePage {
 	}
 	public boolean isCartListSizeGreaterThen(int number) {
 		return  productList().size()>number;
+	}
+	public void clickCloseFreeGiftPopup() throws Exception {
+		Thread.sleep(2000);
+		freeGiftPopupCloseButton().click();
+		System.out.println("closing free gif popup");
 	}
 }

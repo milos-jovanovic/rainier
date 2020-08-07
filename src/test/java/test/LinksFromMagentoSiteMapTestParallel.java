@@ -59,7 +59,7 @@ public class LinksFromMagentoSiteMapTestParallel {
 		
 	}
 
-	@Test(invocationCount = 60, threadPoolSize = 60)
+	@Test(invocationCount = 200000, threadPoolSize = 60)
 	public void test() throws Exception {
 		//Boolean loged = false;
 		
@@ -83,6 +83,8 @@ public class LinksFromMagentoSiteMapTestParallel {
 		
 		driver = new ChromeDriver(options);
 		driver.manage().window().maximize();
+		
+		try {
 		CartPage cartPage = new CartPage(driver);
 		CategoryPage categoryPage = new CategoryPage(driver);
 		ProductPage productPage = new ProductPage(driver);
@@ -94,8 +96,11 @@ public class LinksFromMagentoSiteMapTestParallel {
 		// JavascriptExecutor js = (JavascriptExecutor) driver;
 		int i = 0;
 		
-		if(numberOfLogedUsers<20) {
+		if(random.nextBoolean()) {
 		int userNumber= numberOfLogedUsers++;
+		if(numberOfLogedUsers>=20) {
+			numberOfLogedUsers=0;
+		}
 		//numberOfLogedUsers++;
 		driver.navigate().to(TestData.LOGIN_PAGE_URL);
 		waitForJSandJQueryToLoad(driver, wait);
@@ -139,9 +144,14 @@ public class LinksFromMagentoSiteMapTestParallel {
 				if (productPage.doesPriceBoxContainsAsLowAs() || productPage.isproductInAmmoCategory()) {
 					continue;
 				}
-				if (random.nextBoolean()) {
+				//if (random.nextBoolean()) {
+				waitForJSandJQueryToLoad(driver, wait);
 					System.out.println("Dodajem proizvod kao thread id: "+thread.getId());
 					productPage.clickAddToCartButton();
+					waitForJSandJQueryToLoad(driver, wait);
+					Thread.sleep(2000);
+					cartPage.clickCloseFreeGiftPopup();
+					
 					waitForJSandJQueryToLoad(driver, wait);
 					if (cartPage.isCartListSizeGreaterThen(7)) {
 						cartPage.clickEmptyCartButton();
@@ -151,18 +161,21 @@ public class LinksFromMagentoSiteMapTestParallel {
 						}
 					}
 
-				}
+				//}
 
 			}
 			System.out.println(driver.getCurrentUrl());
 			i++;
-			if (i > 1000)
+			if (i > 15)
 				break;
 
 		}
+		} finally {
+			driver.close();
+			driver.quit();
+		}
 		// System.out.println("Zavrsio je krug...");
-		driver.close();
-		driver.quit();
+		
 	}
 
 	public boolean waitForJSandJQueryToLoad(WebDriver webDriver, WebDriverWait webDriverWait) {
