@@ -5,6 +5,7 @@ package pages;
 import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
@@ -47,6 +48,9 @@ public class CartPage extends BasePage {
 		removeProductFromCartButton().click();
 	}
 	public void clickEmptyCartButton() {
+		//ovde je odradjen scroll into view da bi mogao da sklonim sve artikle iz carta posto kad ima vise artikla u cart dugme pobegne iz vidljivog dela polja
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("arguments[0].scrollIntoView();",emptyCartButton() );
 		emptyCartButton().click();
 	}
 	public void clickMoveProductToWishlist() {

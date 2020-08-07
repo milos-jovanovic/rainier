@@ -59,7 +59,7 @@ public class LinksFromMagentoSiteMapTestParallel {
 		
 	}
 
-	@Test(invocationCount = 5, threadPoolSize = 5)
+	@Test(invocationCount = 60, threadPoolSize = 60)
 	public void test() throws Exception {
 		//Boolean loged = false;
 		
@@ -156,11 +156,12 @@ public class LinksFromMagentoSiteMapTestParallel {
 			}
 			System.out.println(driver.getCurrentUrl());
 			i++;
-			if (i > 5)
+			if (i > 1000)
 				break;
 
 		}
 		// System.out.println("Zavrsio je krug...");
+		driver.close();
 		driver.quit();
 	}
 
